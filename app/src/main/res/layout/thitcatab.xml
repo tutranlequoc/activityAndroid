@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/txtSoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập số A"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edtSoA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập sỐ A"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/txtSoB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập số B"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edtSoB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:hint="Nhập số B"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnCong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cộng"
+            android:layout_marginLeft="5dp"/>
+        <Button
+            android:id="@+id/btnTru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trừ"
+            android:layout_marginLeft="5dp"/>
+        <Button
+            android:id="@+id/btnNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhân"
+            android:layout_marginLeft="5dp"/>
+        <Button
+            android:id="@+id/btnChia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chia"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtKQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
